@@ -135,9 +135,16 @@ header .sticky_logo {
 
 header.sticky .sticky_logo {
   display: block;
-  width: 50px;
-  height: 50px;
-  margin-top: -10px;
+  width: 40px;
+  height: 40px;
+  margin-top: -40px;
+  color: #CC8C18;
+}
+
+.logo{
+  color: #CC8C18;
+  font-size:medium;
+  font-family: 'Poppins', sans-serif;
 }
 
 header.sticky {
@@ -159,10 +166,8 @@ header.sticky ul li a {
 @media only screen and (max-width:768px) {
 
   /*------------head------------*/
-  .header .head_contact,
-  .logo {
-    display: none;
-  }
+ 
+
 
   /*------------head------------*/
   header.sticky {
@@ -621,7 +626,7 @@ p {
   font-family: serif;
 }
 
-.offer .rate i {
+.offer .rate{
   font-size: 13px;
   color: #CC8C18;
   margin: 10px 10px 20px 0;
